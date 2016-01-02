@@ -7,6 +7,7 @@ Small coding projects I've made in the past that don't need their own repository
 * Edicts - Simply counts edicts using "sm_edicts" command.
 * Locked CVars - Prints out all the CVars found in sourcemod/logs/convars.txt.
 * Time Limit Logger - Logs whenever somebody changes mp_timelimit.
+* Frag Radio - An updated version of Frag Radio. Uses client cookies, etc.
 
 # PHP
 * Test Website #1 - A website I've made in BootStrap long ago. One of the first websites I've made in Bootstrap.
