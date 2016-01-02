@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<!-- JavaScripts -->
+		<script src="js/menu.js"></script>
+		<script src="js/testpage.js"></script>
+		
+		<!-- Other -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		<div class="navbar">
+			<ul class="navlist container hidden-xs">
+				<li class="navitem"><a href="index.html">Home</a></li>
+				<li class="navitem"><a href="#">Projects</a></li>
+				<li class="navitem"><a href="contactus.html">Contact Us</a></li>
+			</ul>
+			
+			<span onclick="OpenMobileMenu();" class="visible-xs open-mobile-navbar arrow"></span>
+			
+			<div class="mobilemenu" style="display: none;">
+				<div class="col-xs-12">
+					<ul class="list-unstyled mobilemenu-list">
+						<li class="mobilemenu-listitem"><a href="index.html">Home</a></li>
+						<li class="mobilemenu-listitem"><a href="#">Projects</a></li>
+						<li class="mobilemenu-listitem"><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container main">
+			<h1 class="text-center">The Test Page!</h1>
+			<hr />
+			<p>Welcome to the testing page!</p>
+			<p>Content:</p>
+			
+			<div class="alert-success">
+				<p>Alert-Success class!</p>
+			</div>
+			
+			<div class="alert-warning">
+				<p>Alert-Warning class!</p>
+			</div>
+			
+			<pre id="AddMeContent">0</pre>
+			
+			<button type="button" onclick="AddMe();" class="btn btn-primary">Add +1!</button>
+			<button type="button" onclick="DeleteMe();" class="btn btn-danger">Add -1!</button>
+			<br />
+			<br />
+			
+			<h4>Let's Play A Game!</h4>
+			<span class="info">Get the counter to 100 as fast as you can!</span>
+			<div id="GameMessage"><div class="alert-warning">Hit "Click Me!" to start the game!</div></div>
+			<pre id="GameCounter">0</pre>
+			<button type="button" onclick="GameAction();" class="btn btn-primary" id="GameButton">Click Me!</button>
+		</div>
+		<div class="container footer">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<strong>Developed By:</strong> Christian Deacon
+					<br />
+					<strong>Created On:</strong> 6-18-15
+					<br />
+					
+					<!-- Images -->
+					<a href="http://twitter.com/christiandeacon" target=_blank class="footerimage"><img src="images/twitter.png" width=32 height=32 /></a>
+					<a href="http://facebook.com/christian.deacon" target=_blank class="footerimage"><img src="images/facebook.png" width=32 height=32 /></a>
+					<a href="http://steamcommunity.com/id/halladay" target=_blank class="footerimage"><img src="images/steam.png" width=32 height=32 /></a>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

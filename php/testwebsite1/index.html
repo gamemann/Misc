@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- BOOTSTRAP -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		
+		<!-- JavaScripts -->
+		<script src="js/menu.js"></script>
+		
+		<!-- Other -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	
+	<body>
+		<div class="navbar">
+			<ul class="navlist container hidden-xs">
+				<li class="navitem"><a href="index.html">Home</a></li>
+				<li class="navitem"><a href="#">Projects</a></li>
+				<li class="navitem"><a href="contactus.html">Contact Us</a></li>
+			</ul>
+			
+			<span onclick="OpenMobileMenu();" class="visible-xs open-mobile-navbar arrow"></span>
+			
+			<div class="mobilemenu" style="display: none;">
+				<div class="col-xs-12">
+					<ul class="list-unstyled mobilemenu-list">
+						<li class="mobilemenu-listitem"><a href="index.html">Home</a></li>
+						<li class="mobilemenu-listitem"><a href="#">Projects</a></li>
+						<li class="mobilemenu-listitem"><a href="contactus.html">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container main">
+			<div class="row">
+				<div class="col-md-8 col-xs-12 col-lg-8 col-sm-8">
+					<!-- News -->
+					<h1 class="text-center">Latest News</h1>
+					<hr />
+					<!-- Source Code Released Article-Type -->
+					<h4>Source Code Released!<br /><small>By: Christian Deacon</small><br /><small>Created: 6-19-15</small></h2>
+						<p>The source code of this website has been released on <a href="https://github.com/gamemann/Bootstrap-Testing-Website" target=_blank>GitHub</a>! I wish I could automate the articles with PHP (using MySQL), but I want to keep this website strictly to HTML, CSS, and JavaScript only.</p>
+					
+					<br />
+					
+					<!-- EOGW Released Article-Type -->
+					<h4>EOWG Released!<br /><small>By: Christian Deacon</small><br /><small>Created: 6-18-15</small></h2>
+						<p><abbr title="End Of World Gaming">EOWG</abbr> has been officially released! We will be specializing in game-servers. We will ensure that every one of our servers receive the correct amount of attention to thrive.</p>
+						<blockquote>
+							<p>EOWG hopefully will be released soon. Can't wait!</p>
+							<footer><cite title="Liam Edwards">Liam Edwards</cite></footer>
+						</blockquote>
+						<p>It has begun!</p>
+				</div>
+				
+				<div class="col-md-4 col-xs-12 col-lg-4 col-sm-4">
+					<h1 class="text-center">Donate!</h1>
+					<hr />
+					
+					<form class="form-inline" action="#" method="GET">
+						<div class="form-group text-center">
+							<label class="sr-only" for="AmountToDonate">Amount (in dollars)</label>
+							
+							<div class="input-group">
+								<div class="input-group-addon">$</div>
+								<input type="text" class="form-control" name="amount" id="AmountToDonate" placeholder="Amount" />
+								<div class="input-group-addon">.00</div>
+							</div>
+						</div>
+						<button type="submit" class="btn btn-primary">Donate!</button>
+					</form>
+				</div>
+				
+				<div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 top-donations">
+					<!-- Sidebar -->
+					<h1 class="text-center">Top 5 Donors</h1>
+					<hr />
+					
+					<div class="row">
+						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-capitalize">
+							christian deacon
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+							$1023.24
+						</div>						
+						
+						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-capitalize">
+							Eddie Binks
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+							$432.00
+						</div>						
+						
+						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-capitalize">
+							Liam Edwards
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+							$205.30
+						</div>						
+						
+						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-capitalize">
+							Bill Jennings
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+							$100.30
+						</div>						
+						
+						<div class="col-md-8 col-sm-8 col-xs-8 col-lg-8 text-capitalize">
+							Ashley Mills
+						</div>
+						<div class="col-md-4 col-xs-4 col-sm-4 col-lg-4">
+							$81.60
+						</div>
+						<p class="text-center"><a href="viewdonors.html">View Full List</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container footer">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<strong>Developed By:</strong> Christian Deacon
+					<br />
+					<strong>Created On:</strong> 6-18-15
+					<br />
+					
+					<!-- Images -->
+					<a href="http://twitter.com/christiandeacon" target=_blank class="footerimage"><img src="images/twitter.png" width=32 height=32 /></a>
+					<a href="http://facebook.com/christian.deacon" target=_blank class="footerimage"><img src="images/facebook.png" width=32 height=32 /></a>
+					<a href="http://steamcommunity.com/id/halladay" target=_blank class="footerimage"><img src="images/steam.png" width=32 height=32 /></a>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

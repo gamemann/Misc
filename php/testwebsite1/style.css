@@ -1,0 +1,146 @@
+body
+{
+	background-color: #E1E1E1;
+}
+
+.navbar
+{
+	background-color: rgba(23, 185, 42, 0.85);
+	margin-bottom: 0px;
+	height: 50px;
+	border: 0px solid #eee;
+}
+
+.navitem
+{
+	font-size: 1.5em;
+	line-height: 2.0;
+	padding-left: 15px;
+	padding-right: 15px;
+	display: inline-block;
+	height: 50px;
+}
+
+.navitem:hover
+{
+	background-color: rgba(23, 185, 42, 0.85);
+}	
+
+.navitem a:link
+{
+	color: #FFF;
+}
+
+.navitem a:visited
+{
+	color: #FFF;
+}
+
+.navitem a:active
+{
+	color: #FFF;
+}
+
+.navitem a:hover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.navlist
+{
+	list-style-type: none;
+	margin-top: 0px;
+}
+
+.top-donations
+{
+
+}
+
+.main
+{
+	background-color: #FDF8F8;
+}
+
+.footer
+{
+	min-height: 100px;
+	background-color: #FDF8F8;
+	border-top: 1px solid #EEE;
+	-moz-border-radius: 0px 0px 15px 15px;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.enable-right-border
+{
+	border-right: 1px solid #EEE;
+}
+
+.smalltextbox
+{
+	width: 25em;
+	margin: 0px auto;
+}
+
+.smalltextarea
+{
+	width: 50em;
+	margin: 0px auto;
+}
+
+.arrow
+{
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	
+	border-top: 20px solid #fff;
+}
+
+.mobilemenu
+{
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	background-color: rgba(78, 78, 78, 0.90);
+	width: 50%;
+	z-index: 10;
+	word-wrap: break-all;
+}
+
+.mobilemenu-listitem a:link
+{
+	color: #FFF;
+}
+
+.mobilemenu-listitem a:active
+{
+	color: #FFF;
+}
+
+.mobilemenu-listitem a:visited
+{
+	color: #FFF;
+}
+
+.mobilemenu-listitem a:hover
+{
+	color: #FFF;
+}
+
+.mobilemenu-listitem
+{
+	padding: 5px;
+}
+
+.mobilemenu-listitem:hover
+{
+	background-color: rgba(78, 78, 78, 0.90);
+}
+
+.footerimage
+{
+	padding-left: 10px;
+}
