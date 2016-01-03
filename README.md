@@ -11,6 +11,8 @@ Small coding projects I've made in the past that don't need their own repository
 * TF2Ware Time Limit - Enforces time limit on TF2Ware TF2 servers.
 * GFL Donators - Attempts to add a sprite over GFL Supporter's player model. I'm sure this doesn't work currently.
 * GFL Dynamic Slots - Attempts to change the slot count based on the amount of players playing on the server. I am not sure if this works anymore.
+* Entity Classnames - Print all entity classnames to a log file. You can filter them as well!
+* DodgeBall Model - Change Decoy Dodgeball projectiles to a chicken!
 
 # PHP
 * Test Website #1 - A website I've made in BootStrap long ago. One of the first websites I've made in Bootstrap.
