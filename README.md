@@ -16,3 +16,6 @@ Small coding projects I've made in the past that don't need their own repository
 
 # PHP
 * Test Website #1 - A website I've made in BootStrap long ago. One of the first websites I've made in Bootstrap.
+
+# Batch
+* Update SM SDKs - Automatically clones the master branch of SourceMod and MetaMod along with all the branches in the HL2SDK. If they are already cloned, it will do a "git checkout" (to ensure there are no corrupted files, etc) and "git pull" (to keep the branch up-to-date).
