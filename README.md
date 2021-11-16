@@ -1,7 +1,9 @@
-# Description
-Small coding projects I've made in the past that don't need their own repository. These projects may be outdated or even broken.
+# Misc
 
-# SourcePawn
+## Description
+Small projects I've made in the past that don't need their own repository. These projects may be outdated or even broken.
+
+## SourcePawn
 * DodgeBall Fix - Simply sets all player's to specific models on start.
 * Load Timer - Loads a timer (e.g. CKSurf) for MiniGames course maps.
 * Edicts - Simply counts edicts using "sm_edicts" command.
@@ -14,11 +16,14 @@ Small coding projects I've made in the past that don't need their own repository
 * Entity Classnames - Print all entity classnames to a log file. You can filter them as well!
 * DodgeBall Model - Change Decoy Dodgeball projectiles to a chicken!
 
-# PHP
+## PHP
 * Test Website #1 - A website I've made in BootStrap long ago. One of the first websites I've made in Bootstrap.
 
-# Batch
+## Batch
 * Update SM SDKs - Automatically clones the master branch of SourceMod and MetaMod along with all the branches in the HL2SDK. If they are already cloned, it will do a "git checkout" (to ensure there are no corrupted files, etc) and "git pull" (to keep the branch up-to-date).
 
-# Bash
+## Bash
 * Music Downloader - Uses `youtube-dl` (audio) and `ffmpeg` (volume tuning) to download videos from YouTube in the .mp3 format.
+
+## Python
+* Small Discord Bot - A small Discord bot that notifies my partner of some things at 8 AM CST in a server we have together.
