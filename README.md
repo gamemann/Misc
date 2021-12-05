@@ -27,3 +27,6 @@ Small projects I've made in the past that don't need their own repository. These
 
 ## Python
 * Small Discord Bot - A small Discord bot that notifies my partner of some things at 8 AM CST in a server we have together.
+
+## C Test Programs
+In this directory you'll find **many** C programs I made for testing purposes while I learn it more and more. Please keep in mind these programs are informal, so you may see odd variable names such as `lol` or `xd` along with other things.
