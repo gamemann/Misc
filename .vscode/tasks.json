@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "options": 
+    {
+        "env": 
+        {
+            "sm_path": "/home/dev/sm-10",
+            "server_path": "/home/dev"
+        }
+    },
+    "tasks": 
+    [
+        {
+            "label": "sourcepawn",
+            "type": "shell",
+            "command": "$sm_path/spcomp64 ${file} -D ${workspaceFolder} -i ${workspaceFolder}/scripting/include && sudo cp -f ${workspaceFolder}/${fileBasenameNoExtension}.smx ${server_path}",
+            "problemMatcher": []
+        }
+    ]
+}
