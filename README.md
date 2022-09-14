@@ -3,6 +3,8 @@
 ## Description
 Small projects I've made in the past that don't need their own repository. These projects may be outdated or even broken.
 
+I would recommend taking a look at my other GitHub [repositories](https://github.com/gamemann?tab=repositories) for supported/official projects.
+
 ## SourcePawn
 * DodgeBall Fix - Simply sets all player's to specific models on start.
 * Load Timer - Loads a timer (e.g. CKSurf) for MiniGames course maps.
