@@ -1,0 +1,11 @@
+[Unit]
+Description=Auto remounts SMB shares if not found.
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/bash /opt/auto_mnt_smbs.service
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
